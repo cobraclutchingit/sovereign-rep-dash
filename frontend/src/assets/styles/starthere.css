@@ -1,0 +1,74 @@
+/* StartHere page styles */
+
+.start-here-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.section-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.section-content {
+  margin-bottom: 1.5rem;
+}
+
+.checklist-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.checklist-item input[type="checkbox"] {
+  margin-right: 1rem;
+  margin-top: 0.25rem;
+}
+
+.download-link {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+  background-color: #2980b9;
+  color: white;
+}
+
+.download-link svg {
+  margin-right: 0.5rem;
+}
+
+.quote-box {
+  background-color: rgba(52, 152, 219, 0.1);
+  border-left: 4px solid var(--secondary-color);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .section-card {
+    padding: 1.5rem;
+  }
+}
